@@ -56,10 +56,10 @@ const Contact = () => {
       );
   };
   return (
-    <div className="xl:mt-12 xl:flex-row flex-col-reverse flex mx-auto gap-10 overflow-hidden">
+    <div className="xl:mt-12 xl:flex-row flex-col-reverse flex mx-auto gap-10">
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
-        className="flex-[0.75] lg:flex-[0.5] mx-auto  p-8 rounded-2xl bg-tertiary"
+        className="flex-[0.5] lg:flex-[0.5] mx-auto  p-8 rounded-2xl bg-tertiary"
       >
         <p className={styles.sectionSubText}>Lets</p>
         <h3 className={styles.sectionHeadText}>Connect.</h3>
