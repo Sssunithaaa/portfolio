@@ -6,6 +6,9 @@ import { styles } from "../style";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
+import { blogproject } from "../assets";
+import ReactPlayer from 'react-player'
+
 const ProjectCard = ({ project, index }) => {
   return (
     <motion.div
@@ -13,11 +16,13 @@ const ProjectCard = ({ project, index }) => {
       className="bg-tertiary sm:w-[360px] border-green-pink-gradient rounded-2xl p-5"
     >
       <div className="relative w-full h-[230px]">
-        <img
-          src={project.image}
-          alt={project.name}
-          className="w-full h-full object-cover rounded-2xl"
-        />
+    
+      <img
+      src={project.image}
+      alt={project.name}
+      className="w-full h-full object-cover rounded-2xl"
+    /> 
+    
         <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
           <div
             onClick={() => window.open(project.source_code_link, "_blank")}
@@ -45,6 +50,10 @@ const ProjectCard = ({ project, index }) => {
             #{tag.name}
           </p>
         ))}
+      </div>
+      <div className="mt-4 text-lg">
+      <p className="font-semibold text-purple-400"><a href={`${project?.link}`} target="blank">{project?.link}</a></p>
+
       </div>
     </motion.div>
   );

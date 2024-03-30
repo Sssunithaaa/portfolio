@@ -24,6 +24,9 @@ import {
   tripguide,
   threejs,
   github,
+  java,
+  python,
+  framer,
 } from "../assets";
 import blogplatform from "../assets/blogplatform.png";
 import inventory from "../assets/inventory.png";
@@ -75,6 +78,14 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
+  {
+    name:"Java",
+    icon:java
+  },
+  {
+    name:"Python",
+    icon:python
+  },
 
   {
     name: "React JS",
@@ -97,6 +108,10 @@ const technologies = [
     icon: mongodb,
   },
   {
+    name:"Framer-motion",
+    icon: framer
+  },
+  {
     name: "Three JS",
     icon: threejs,
   },
@@ -114,15 +129,15 @@ const technologies = [
 const experiences = [
   {
     title: "React.js Developer",
-    company_name: "Starbucks",
+    company_name: "Techno rings",
     icon: starbucks,
     iconBg: "#383E56",
     date: "",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Developed and deployed a web application using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including backend developers to create high-quality project.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+    
     ],
   },
   {
@@ -132,10 +147,9 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "",
     points: [
-      "Developing and maintaining web applications using Python and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed web applications using Python and other related technologies.",
+      "Increased skills significantly in python"
+      
     ],
   },
 ];
@@ -203,6 +217,7 @@ const projects = [
     ],
     image: iplpred,
     source_code_link: "https://github.com/Sssunithaaa/iplprediction",
+    link:"http://predictiveplay.in/"
   },
 ];
 
