@@ -4,7 +4,7 @@ import {
   creator,
   web,
   javascript,
-  typescript,
+
   html,
   css,
   reactjs,
@@ -13,24 +13,20 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
+  
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+
   threejs,
   github,
   java,
   python,
   framer,
+technorings
 } from "../assets";
 import blogplatform from "../assets/blogplatform.png";
 import inventory from "../assets/inventory.png";
 import iplpred from "../assets/iplpred.png";
+
 export const navLinks = [
   {
     id: "about",
@@ -115,7 +111,10 @@ const technologies = [
     name: "Three JS",
     icon: threejs,
   },
-
+  {
+    name: "Git",
+    icon: git
+  },
   {
     name: "github",
     icon: github,
@@ -130,7 +129,7 @@ const experiences = [
   {
     title: "React.js Developer",
     company_name: "Techno rings",
-    icon: starbucks,
+  
     iconBg: "#383E56",
     date: "",
     points: [
@@ -143,7 +142,7 @@ const experiences = [
   {
     title: "Python programming",
     company_name: "Motion Cut",
-    icon: tesla,
+
     iconBg: "#E6DEDD",
     date: "",
     points: [
@@ -175,6 +174,28 @@ const projects = [
     ],
     image: blogplatform,
     source_code_link: "https://github.com/Sssunithaaa/blog-platform",
+  },
+  {
+    name: "Techno rings",
+    description:
+      "Techno Rings is an industry-grade application that has been deployed and in use.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "django",
+        color: "green-text-gradient",
+      },
+      {
+        name: "sync-fusion",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: technorings,
+    source_code_link: "https://github.com/SaiMouli3/techno__frontend",
+    link: "https://techno-five-ashen.vercel.app/home"
   },
   {
     name: "Inventory Management System",
